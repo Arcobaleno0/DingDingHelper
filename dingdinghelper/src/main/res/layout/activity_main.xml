@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/windowbackgroud"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
         android:background="@color/colorPrimary_dark"
-        android:titleTextColor="@android:color/white">
-    </android.support.v7.widget.Toolbar>
+        android:titleTextColor="@android:color/white"></android.support.v7.widget.Toolbar>
 
     <Button
         android:id="@+id/save_password"
@@ -25,9 +21,8 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/selector_drawable_for_btn"
-        android:text="保存钉钉密码"
-        android:textColor="#ffffff"
-        />
+        android:text="save clock in pwd"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/open_service"
@@ -37,9 +32,8 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/selector_drawable_for_btn"
-        android:text="现在打卡"
-        android:textColor="#ffffff"
-        />
+        android:text="now clock in"
+        android:textColor="#ffffff" />
 
 
     <Button
@@ -50,9 +44,8 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/selector_drawable_for_btn"
-        android:text="清空账户"
-        android:textColor="#ffffff"
-        />
+        android:text="clean account"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/do_system_app"
@@ -62,11 +55,9 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/selector_drawable_for_btn"
-        android:text="成为系统App"
-        android:textAllCaps="false"
+        android:text="become system App"
         android:textColor="#ffffff"
-        android:visibility="gone"
-        />
+        android:visibility="gone" />
 
     <LinearLayout
         android:id="@+id/check_time_linearLayout"
@@ -81,18 +72,16 @@
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:orientation="horizontal"
-            android:paddingLeft="20dp"
-            >
+            android:paddingLeft="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="选择打卡时间(1~6):"
+                android:text="Select Morning Time (1~6):"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/time_textView"
@@ -102,8 +91,7 @@
                 android:layout_marginTop="10dp"
                 android:text="08:45"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -114,18 +102,16 @@
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:orientation="horizontal"
-            android:paddingLeft="20dp"
-            >
+            android:paddingLeft="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="选择打卡时间(1~6):"
+                android:text="Select Afternoon Time (1~6):"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/n_time_textView"
@@ -135,8 +121,7 @@
                 android:layout_marginTop="10dp"
                 android:text="18:45"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -146,8 +131,7 @@
         android:id="@+id/parentGroup_frameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
-        >
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/p_time_textView_"
@@ -156,8 +140,7 @@
             android:layout_gravity="center"
             android:text="5:48"
             android:textColor="@android:color/background_dark"
-            android:textSize="16sp"
-            />
+            android:textSize="16sp" />
 
     </FrameLayout>
 
